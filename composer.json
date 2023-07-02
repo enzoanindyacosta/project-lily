@@ -6,6 +6,11 @@
 		"App\\": "./"
 		}
 	},
+  "autoload-dev": {
+        "classmap": [
+            "tests/UserTest.php"
+        ]
+    },
    "require-dev": {
 		"ext-curl": "*",
 		"ext-dom": "*",
