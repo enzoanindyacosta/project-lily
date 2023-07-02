@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 use App\user_dashboard\index;
 
-
+// ** @test **
 class UserTest extends TestCase {
     
         // User Testing
