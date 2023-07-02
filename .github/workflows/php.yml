@@ -23,6 +23,16 @@ jobs:
         key: ${{ runner.os }}-${{ hashFiles('**/composer.lock') }}
 #     - uses: php-actions/composer@v6 # or alternative dependency management
     - uses: php-actions/phpunit@v3
+    
+    
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: PHPUnit tests
+      uses: php-actions/phpunit@v3
+      with:
+        configuration: "custom/path/to/phpunit.xml"
+        memory_limit: "256M"
 
 
 # name: Project Lily
