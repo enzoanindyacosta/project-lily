@@ -10,8 +10,7 @@ class user_sidebar_test extends TestCase {
 
     public function testUserSidebar(){
     self::assertStringContainsString(
-        "Hello",
-        <ul class="list-group rounded-0">
+        "<ul class="list-group rounded-0">
     <a href="./index.php" class="list-group-item-action list-group-item">
         <p class="m-0 p-0 text-secondary">Hey, Welcome Back!</p>
         <h3 class="m-0 p-0 text-danger">' . $_SESSION['user_fullname'] . '</h3>
@@ -41,7 +40,9 @@ class user_sidebar_test extends TestCase {
       <i class="fas fa-sign-out-alt me-2 text-danger"></i>
       Logout
     </a>
-  </ul>
+  </ul>",
+  $UserSidebar->active()
+  
 }
   
 
