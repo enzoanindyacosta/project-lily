@@ -1,23 +1,46 @@
-name: Project_lily
+name: CI
 
-on:
-  push:
-    branches: [ "MUKT" ]
-  pull_request:
-    branches: [ "MUKT" ]
-
-permissions:
-  contents: read
+on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-       
+
     steps:
     - uses: actions/checkout@v3
-#     - uses: php-actions/composer@v6 # or alternative dependency management
-    - uses: php-actions/phpunit@v3
+    - uses: php-actions/composer@v6
+    # ... then your own project steps ...
+# steps:
+
+#     - name: Install dependencies
+#       uses: php-actions/composer@v6
+#       with:
+#         command: your-command-here
+
+
+
+
+
+# name: Project_lily
+
+# on:
+#   push:
+#     branches: [ "MUKT" ]
+#   pull_request:
+#     branches: [ "MUKT" ]
+
+# permissions:
+#   contents: read
+
+# jobs:
+#   build:
+
+#     runs-on: ubuntu-latest
+       
+#     steps:
+#     - uses: actions/checkout@v3
+# #     - uses: php-actions/composer@v6 # or alternative dependency management
+#     - uses: php-actions/phpunit@v3
 
 #     steps:
 #     - uses: actions/checkout@v3
