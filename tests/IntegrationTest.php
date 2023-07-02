@@ -6,11 +6,13 @@ use PHPUnit\Framework\TestCase;
 
 use App\user_dashboard\index;
 
-/* @test */
+/* @testing */
 class IntegrationTest extends TestCase {
 
         // Integration Testing
-        /* @doesNotPerformAssertions */
+/**
+ * @doesNotPerformAssertions
+ */
     public function testThree(){
         $z = True;
         if ($z == True){
