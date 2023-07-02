@@ -41,7 +41,7 @@ class user_sidebar_test extends TestCase {
       Logout
     </a>
   </ul>",
-  $UserSidebar->active()
+  3
   
 }
   
