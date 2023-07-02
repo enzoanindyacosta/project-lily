@@ -13,9 +13,9 @@ class IntegrationTest extends TestCase {
     public function testThree(){
         $z = True;
         if ($z == True){
-            echo ' Integration Test 3: Test Passed <br> ';
+            echo ' Integration Test 3: Test Passed; ';
         } else{
-            echo ' Integration Test 3: Test Failed <br> ';
+            echo ' Integration Test 3: Test Failed; ';
         }      
     }
 }
