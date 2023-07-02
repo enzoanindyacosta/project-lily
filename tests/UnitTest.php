@@ -10,7 +10,7 @@ use App\user_dashboard\index;
 class UnitTest extends TestCase {
   
         // Unit Testing
-    public function testTwo(){
+    public function Unittest(){
         $y = True;
         if ($y == True){
             echo ' Unit Test 2: Test Passed ';
