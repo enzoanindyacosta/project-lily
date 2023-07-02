@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 use App\user_dashboard\index;
 
-/** @test */
+
 class UserTest extends TestCase {
     
         // User Testing
@@ -14,8 +14,10 @@ class UserTest extends TestCase {
         $x = True;
         if ($x == True){
             echo 'User Test 1: Test Passed';
+            echo '';
         } else{
             echo 'User Test 2: Test Failed';
+            echo '';
         }      
     }
     
@@ -24,8 +26,10 @@ class UserTest extends TestCase {
         $y = True;
         if ($x == True){
             echo 'Unit Test 1: Test Passed';
+            echo '';
         } else{
             echo 'Unit Test 2: Test Failed';
+            echo '';
         }      
     }
     
@@ -34,8 +38,10 @@ class UserTest extends TestCase {
         $z = True;
         if ($x == True){
             echo 'Integration Test 1: Test Passed';
+            echo '';
         } else{
             echo 'Integration Test 2: Test Failed';
+            echo '';
         }       
     }
 }
