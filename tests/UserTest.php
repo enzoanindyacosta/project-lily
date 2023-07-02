@@ -4,7 +4,7 @@ namespace projectlily;
 
 use PHPUnit\Framework\TestCase;
 
-use App\components\user_sidebar;
+use App\user_dashboard\index;
 
 class user_sidebar_test extends TestCase {
     public function testUserSidebar(){
