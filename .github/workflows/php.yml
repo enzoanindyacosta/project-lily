@@ -11,8 +11,15 @@ jobs:
     - name: Install dependencies
       uses: php-actions/composer@v6
       with:
+        php_version: "8.2"
+        version: 1
         dev: no
         args: --profile --ignore-platform-reqs
+    - name: PHPUnit tests
+      uses: php-actions/phpunit@v3
+      with:
+        configuration: "custom/path/to/phpunit.xml"
+        memory_limit: "256M"
 
 # name: CI
 
