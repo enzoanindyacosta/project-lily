@@ -1,0 +1,117 @@
+.auth-main-bg {
+  background: rgb(42, 103, 221);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 103, 221, 1) 0%,
+    rgba(174, 194, 235) 84%,
+    rgb(236, 236, 226) 100%
+  );
+  max-height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.auth-right-side {
+  background: #e5e5d4;
+  border-top-left-radius: 2.75rem;
+  padding: 2.5rem 3rem;
+  max-height: 100%;
+  min-height: 100vh;
+}
+
+.blue-bg {
+  background: rgb(42, 103, 221);
+}
+
+.blue-fg {
+  color: rgb(42, 103, 221);
+}
+
+.user-main-bg {
+  background: #B2BEB5;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 100%;
+  min-height: 100vh;
+}
+
+.content-elements {
+  width: 100%;
+}
+
+.content-elements ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-elements ul li {
+  width: 12.5%;
+  padding: 0 20px;
+}
+
+.col {
+  width: 12.5%;
+  padding: 0 20px;
+  position: relative;
+}
+
+.list-group{
+  margin-top: -26px;
+}
+
+.content-elements ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.content-elements ul li {
+  margin: 10px 0;
+  position: relative;
+}
+
+.img-fluid {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.element-face {
+  position: absolute;
+  left: 32%;
+  top: 14%;
+  max-width: 45px;
+}
+
+.navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .element-face {
+    max-width: 30px;
+    left: 39%;
+    top: 14%;
+  }
+
+  /* .list-group {
+    display: none;
+  } */
+
+  .content-elements ul li {
+    width: 20%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .content-elements ul li {
+    width: 33%;
+    padding: 0 20px;
+  }
+}
+
+.modal {
+  color: #5290cc;
+}
