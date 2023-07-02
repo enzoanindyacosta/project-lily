@@ -1,5 +1,17 @@
 {
-    "require": {
-        "twig/twig": "1.13.*"
-    }
+  "name": "enzoanindyacosta/project-lily",
+  "description": "Github Actions for PHP with PHPUnit Tests for Project Lily",
+  "autoload": {
+	"psr-4": {
+		"App\\": "./"
+		}
+	},
+   "require-dev": {
+		"ext-curl": "*",
+		"ext-dom": "*",
+		"ext-json": "*",
+		"ext-sqlite3": "*",
+		"phpunit/phpunit": "9.*",
+       "twig/twig": "1.13.*"
+	},
 }
