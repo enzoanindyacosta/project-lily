@@ -24,4 +24,4 @@ class user_sidebar_test extends TestCase {
 // }
 
 
-  
+  ?>
