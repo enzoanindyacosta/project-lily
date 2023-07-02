@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<!-- <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
          bootstrap="vendor/autoload.php"
          colors="true">
@@ -9,4 +9,19 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-</phpunit>
+</phpunit> -->
+
+    <php>
+        <ini name="display_errors" value="On"/>
+        <ini name="display_startup_errors" value="On"/>
+        <!--
+            PHPUnit recommended PHP config
+            https://phpunit.readthedocs.io/en/9.5/installation.html#recommended-php-configuration
+        -->
+        <ini name="memory_limit" value="-1"/>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="log_errors_max_len" value="0"/>
+        <ini name="zend.assertions" value="1"/>
+        <ini name="assert.exception" value="1"/>
+        <ini name="xdebug.show_exception_trace" value="0"/>
+    </php>
