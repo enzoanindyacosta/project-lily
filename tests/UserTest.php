@@ -10,13 +10,13 @@ use App\user_dashboard\index;
 class UserTest extends TestCase {
     
         // User Testing
-    public function testOne(){
+    public function Usertest(){
         $x = True;
         if ($x == True){
-            echo 'User Test 1: Test Passed ';
+            echo ' User Test 1: Test Passed ';
             echo '';
         } else{
-            echo 'User Test 1: Test Failed ';
+            echo ' User Test 1: Test Failed ';
             echo '';
         }      
     }
