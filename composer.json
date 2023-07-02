@@ -12,6 +12,6 @@
 		"ext-json": "*",
 		"ext-sqlite3": "*",
 		"phpunit/phpunit": "9.*",
-       "twig/twig": "1.13.*"
+       		"twig/twig": "1.13.*"
 	},
 }
