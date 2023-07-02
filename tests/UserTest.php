@@ -8,7 +8,7 @@ use App\components\user_sidebar;
 
 class user_sidebar_test extends TestCase {
     public function testUserSidebar(){
-        print_r(get_included_files()
+        print_r(get_included_files())
     };
 };
   
