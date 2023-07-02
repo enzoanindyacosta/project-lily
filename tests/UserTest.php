@@ -13,9 +13,9 @@ class UserTest extends TestCase {
     public function testOne(){
         $x = True;
         if ($x == True){
-            return 'User Test 1: Test Passed';
+            echo 'User Test 1: Test Passed';
         } else{
-            return 'User Test 2: Test Failed';
+            echo 'User Test 2: Test Failed';
         }      
     }
     
@@ -23,9 +23,9 @@ class UserTest extends TestCase {
     public function testTwo(){
         $y = True;
         if ($x == True){
-            return 'Unit Test 1: Test Passed';
+            echo 'Unit Test 1: Test Passed';
         } else{
-            return 'Unit Test 2: Test Failed';
+            echo 'Unit Test 2: Test Failed';
         }      
     }
     
@@ -33,9 +33,9 @@ class UserTest extends TestCase {
     public function testThree(){
         $z = True;
         if ($x == True){
-            return 'Integration Test 1: Test Passed';
+            echo 'Integration Test 1: Test Passed';
         } else{
-            return 'Integration Test 2: Test Failed';
+            echo 'Integration Test 2: Test Failed';
         }       
     }
 }
