@@ -13,10 +13,10 @@ class UserTest extends TestCase {
     public function testOne(){
         $x = True;
         if ($x == True){
-            echo 'User Test 1: Test Passed';
+            echo 'User Test 1: Test Passed ';
             echo '';
         } else{
-            echo 'User Test 2: Test Failed';
+            echo 'User Test 2: Test Failed ';
             echo '';
         }      
     }
@@ -25,10 +25,10 @@ class UserTest extends TestCase {
     public function testTwo(){
         $y = True;
         if ($x == True){
-            echo 'Unit Test 1: Test Passed';
+            echo ' Unit Test 1: Test Passed ';
             echo '';
         } else{
-            echo 'Unit Test 2: Test Failed';
+            echo ' Unit Test 2: Test Failed ';
             echo '';
         }      
     }
@@ -37,10 +37,10 @@ class UserTest extends TestCase {
     public function testThree(){
         $z = True;
         if ($x == True){
-            echo 'Integration Test 1: Test Passed';
+            echo ' Integration Test 1: Test Passed';
             echo '';
         } else{
-            echo 'Integration Test 2: Test Failed';
+            echo ' Integration Test 2: Test Failed';
             echo '';
         }       
     }
