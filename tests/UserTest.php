@@ -6,11 +6,13 @@ use PHPUnit\Framework\TestCase;
 
 use App\user_dashboard\index;
 
-/* @test */
+/* @testing */
 class UserTest extends TestCase {
 
         // User Testing
-        /* @doesNotPerformAssertions */
+/**
+ * @doesNotPerformAssertions
+ */
     public function testOne(){
         $y = True;
         if ($y == True){
