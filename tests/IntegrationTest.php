@@ -10,14 +10,12 @@ use App\user_dashboard\index;
 class IntegrationTest extends TestCase {
 
         // Integration Testing
-    public function testTwo(){
+    public function testThree(){
         $z = True;
         if ($z == True){
-            echo ' Integration Test 2: Test Passed ';
-            echo '<br>';
+            echo ' Integration Test 3: Test Passed <br> ';
         } else{
-            echo ' Integration Test 2: Test Failed ';
-            echo '<br>';
+            echo ' Integration Test 3: Test Failed <br> ';
         }      
     }
 }
