@@ -9,10 +9,7 @@ use App\components\user_sidebar;
 class user_sidebar_test extends TestCase {
 
     public function testUserSidebar(){
-    // self::assertStringContainsString(
-    //     "", 3);
-    self::function_exists(include_once)
-        // "", 3);
+        print_r(get_included_files());
   
 }
   
