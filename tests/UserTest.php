@@ -1,6 +1,6 @@
 <?php
 
-namespace projectlily;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
