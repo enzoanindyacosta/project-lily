@@ -13,9 +13,9 @@ class UnitTest extends TestCase {
     public function testTwo(){
         $y = True;
         if ($y == True){
-            echo ' Unit Test 2: Test Passed <br> ';
+            echo ' Unit Test 1: Test Passed; ';
         } else{
-            echo ' Unit Test 2: Test Failed <br> ';
+            echo ' Unit Test 1: Test Failed; ';
         }      
     }
 }
